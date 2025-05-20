@@ -1,0 +1,12 @@
+import pandas as pd
+
+# It's more conventional to import pandas as 'pd', not 'np'.
+# 'np' is typically used for NumPy.
+
+d = pd.read_csv('Data.csv')
+
+# To display the DataFrame, you can simply call its variable name in an interactive environment
+# like a Jupyter Notebook or a Python console.
+# In a script, you might want to use print(d.head()) or print(d.info())
+# to see a summary of the data.
+print(d)
